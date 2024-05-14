@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
@@ -23,9 +24,55 @@ namespace WindowsFormsApp1
             this.BackColor = Color.Gainsboro;            
         }
 
+        private void SelectStations()
+        {
+            string sqlConnection = $@"Data Source={Global.HostServer};Initial Catalog=TrainDataBase;Integrated Security=True";
+            string query = "select * from TrainsStations where TrainName = @Train";
+
+            List<string> StationsList = new List<string>();
+
+            SqlConnection connection = new SqlConnection(sqlConnection);
+
+            connection.Open();
+
+            using(SqlCommand command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@Train", label4.Text);
+                SqlDataReader reader = command.ExecuteReader();
+                while(reader.Read())
+                {
+                    StationsList.Add(reader.GetString(0));
+                    StationsList.Add(reader.GetString(1));
+                    StationsList.Add(reader.GetString(2));
+                    StationsList.Add(reader.GetString(3));
+                    StationsList.Add(reader.GetString(4));
+                    StationsList.Add(reader.GetString(5));
+                    StationsList.Add(reader.GetString(6));
+                    StationsList.Add(reader.GetString(7));
+                    StationsList.Add(reader.GetString(8));
+                    StationsList.Add(reader.GetString(9));
+                }
+                reader.Close();
+                command.ExecuteNonQuery();
+            }
+
+            connection.Close();
+
+            for(int i = 0; i < StationsList.Count; i++)
+            {
+                textBox9.Text += StationsList[i] + " • ";
+            }
+        }
+
         private void panel3_MouseLeave(object sender, EventArgs e)
         {            
             this.BackColor = Color.White;
+        }
+
+        public TextBox Time
+        {
+            get { return time; }
+            set { time = value;}
         }
 
         public Label TrainNum
@@ -144,6 +191,18 @@ namespace WindowsFormsApp1
         private void textBox9_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void UserControl1_Load(object sender, EventArgs e)
+        {
+            SelectStations();
+        }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+            Global.SetStations = label4.Text;
+            Form9 form = new Form9();
+            form.ShowDialog();
         }
     }
 }

@@ -50,6 +50,8 @@ namespace WindowsFormsApp1
         public static string Mail;
 
         public static string HostServer = @"(localdb)\mssqllocaldb";
+
+        public static string SetStations;
     }
 }
 

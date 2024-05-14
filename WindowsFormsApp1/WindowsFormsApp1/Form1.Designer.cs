@@ -34,16 +34,13 @@
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.textBox10 = new Guna.UI2.WinForms.Guna2TextBox();
             this.button13 = new System.Windows.Forms.Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.textBox11 = new Guna.UI2.WinForms.Guna2TextBox();
             this.button14 = new System.Windows.Forms.Button();
@@ -69,10 +66,16 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.guna2TrackBar3 = new Guna.UI2.WinForms.Guna2TrackBar();
             this.button8 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
             this.guna2TrackBar4 = new Guna.UI2.WinForms.Guna2TrackBar();
             this.button9 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
@@ -93,16 +96,12 @@
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel8.SuspendLayout();
             this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
@@ -117,8 +116,8 @@
             this.flowLayoutPanel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.flowLayoutPanel6.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -195,28 +194,6 @@
             this.guna2Panel3.Size = new System.Drawing.Size(217, 146);
             this.guna2Panel3.TabIndex = 0;
             // 
-            // guna2Button7
-            // 
-            this.guna2Button7.Animated = true;
-            this.guna2Button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.guna2Button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Button7.BackgroundImage")));
-            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            this.guna2Button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2Button7.ForeColor = System.Drawing.Color.Red;
-            this.guna2Button7.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button7.Image")));
-            this.guna2Button7.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2Button7.Location = new System.Drawing.Point(560, 3);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(45, 45);
-            this.guna2Button7.TabIndex = 4;
-            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
-            this.guna2Button7.MouseEnter += new System.EventHandler(this.guna2Button7_MouseEnter);
-            this.guna2Button7.MouseLeave += new System.EventHandler(this.guna2Button7_MouseLeave);
-            // 
             // guna2Button3
             // 
             this.guna2Button3.Animated = true;
@@ -265,16 +242,6 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(100, 61);
             this.panel6.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-75, -22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(250, 96);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // flowLayoutPanel1
             // 
@@ -336,25 +303,6 @@
             this.button13.Text = "X";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
-            // 
-            // guna2Button5
-            // 
-            this.guna2Button5.Animated = true;
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.Color.White;
-            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button5.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
-            this.guna2Button5.Location = new System.Drawing.Point(259, 3);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(42, 55);
-            this.guna2Button5.TabIndex = 11;
-            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
-            this.guna2Button5.MouseEnter += new System.EventHandler(this.guna2Button5_MouseEnter);
-            this.guna2Button5.MouseLeave += new System.EventHandler(this.guna2Button5_MouseLeave);
             // 
             // guna2Panel2
             // 
@@ -460,9 +408,9 @@
             // 
             this.flowLayoutPanel2.AutoScroll = true;
             this.flowLayoutPanel2.Controls.Add(this.panel9);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(523, 177);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(523, 147);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(692, 599);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(692, 629);
             this.flowLayoutPanel2.TabIndex = 2;
             // 
             // panel9
@@ -677,8 +625,44 @@
             this.panel13.Controls.Add(this.label3);
             this.panel13.Location = new System.Drawing.Point(3, 291);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(245, 138);
+            this.panel13.Size = new System.Drawing.Size(245, 60);
             this.panel13.TabIndex = 2;
+            // 
+            // textBox14
+            // 
+            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox14.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.textBox14.ForeColor = System.Drawing.Color.Gray;
+            this.textBox14.Location = new System.Drawing.Point(44, 53);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(71, 26);
+            this.textBox14.TabIndex = 15;
+            this.textBox14.Text = ": 00";
+            this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
+            // 
+            // textBox5
+            // 
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.textBox5.ForeColor = System.Drawing.Color.Gray;
+            this.textBox5.Location = new System.Drawing.Point(148, 53);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(82, 26);
+            this.textBox5.TabIndex = 14;
+            this.textBox5.Text = "23 : 00";
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox6
+            // 
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.textBox6.ForeColor = System.Drawing.Color.Gray;
+            this.textBox6.Location = new System.Drawing.Point(20, 53);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(24, 26);
+            this.textBox6.TabIndex = 13;
+            this.textBox6.Text = "0";
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged_1);
             // 
             // guna2TrackBar3
             // 
@@ -703,7 +687,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(23, 23);
             this.button8.TabIndex = 4;
-            this.button8.Text = "▲";
+            this.button8.Text = "▼";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
@@ -727,10 +711,44 @@
             this.panel14.Controls.Add(this.guna2TrackBar4);
             this.panel14.Controls.Add(this.button9);
             this.panel14.Controls.Add(this.label4);
-            this.panel14.Location = new System.Drawing.Point(3, 435);
+            this.panel14.Location = new System.Drawing.Point(3, 357);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(245, 138);
+            this.panel14.Size = new System.Drawing.Size(245, 60);
             this.panel14.TabIndex = 3;
+            // 
+            // textBox7
+            // 
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox7.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.textBox7.ForeColor = System.Drawing.Color.Gray;
+            this.textBox7.Location = new System.Drawing.Point(41, 56);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(71, 26);
+            this.textBox7.TabIndex = 18;
+            this.textBox7.Text = ": 00";
+            // 
+            // textBox8
+            // 
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox8.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.textBox8.ForeColor = System.Drawing.Color.Gray;
+            this.textBox8.Location = new System.Drawing.Point(145, 56);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(82, 26);
+            this.textBox8.TabIndex = 17;
+            this.textBox8.Text = "23 : 00";
+            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox15
+            // 
+            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox15.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.textBox15.ForeColor = System.Drawing.Color.Gray;
+            this.textBox15.Location = new System.Drawing.Point(17, 56);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(24, 26);
+            this.textBox15.TabIndex = 16;
+            this.textBox15.Text = "0";
             // 
             // guna2TrackBar4
             // 
@@ -754,7 +772,7 @@
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(23, 23);
             this.button9.TabIndex = 4;
-            this.button9.Text = "▲";
+            this.button9.Text = "▼";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
@@ -771,7 +789,7 @@
             // 
             // panel7
             // 
-            this.panel7.Location = new System.Drawing.Point(3, 579);
+            this.panel7.Location = new System.Drawing.Point(3, 423);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(245, 22);
             this.panel7.TabIndex = 6;
@@ -786,7 +804,7 @@
             this.guna2Button4.FillColor = System.Drawing.Color.White;
             this.guna2Button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2Button4.ForeColor = System.Drawing.Color.Red;
-            this.guna2Button4.Location = new System.Drawing.Point(3, 607);
+            this.guna2Button4.Location = new System.Drawing.Point(3, 451);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(245, 50);
             this.guna2Button4.TabIndex = 11;
@@ -801,7 +819,7 @@
             this.flowLayoutPanel4.Controls.Add(this.button3);
             this.flowLayoutPanel4.Controls.Add(this.button4);
             this.flowLayoutPanel4.Controls.Add(this.button5);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(544, 134);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(544, 104);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
             this.flowLayoutPanel4.Size = new System.Drawing.Size(625, 37);
             this.flowLayoutPanel4.TabIndex = 4;
@@ -922,7 +940,7 @@
             // 
             this.flowLayoutPanel5.AutoScroll = true;
             this.flowLayoutPanel5.BackColor = System.Drawing.Color.White;
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel5.Location = new System.Drawing.Point(237, 71);
             this.flowLayoutPanel5.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel5.Name = "flowLayoutPanel5";
             this.flowLayoutPanel5.Size = new System.Drawing.Size(255, 242);
@@ -933,7 +951,6 @@
             // 
             this.flowLayoutPanel6.AutoScroll = true;
             this.flowLayoutPanel6.BackColor = System.Drawing.Color.White;
-            this.flowLayoutPanel6.Controls.Add(this.flowLayoutPanel5);
             this.flowLayoutPanel6.Location = new System.Drawing.Point(541, 70);
             this.flowLayoutPanel6.Name = "flowLayoutPanel6";
             this.flowLayoutPanel6.Size = new System.Drawing.Size(255, 242);
@@ -960,6 +977,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.flowLayoutPanel5);
             this.panel2.Controls.Add(this.flowLayoutPanel6);
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.flowLayoutPanel1);
@@ -977,75 +995,56 @@
             this.panel2.Size = new System.Drawing.Size(1424, 823);
             this.panel2.TabIndex = 11;
             // 
-            // textBox6
+            // guna2Button5
             // 
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
-            this.textBox6.ForeColor = System.Drawing.Color.Gray;
-            this.textBox6.Location = new System.Drawing.Point(20, 53);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(24, 26);
-            this.textBox6.TabIndex = 13;
-            this.textBox6.Text = "0";
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged_1);
+            this.guna2Button5.Animated = true;
+            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button5.FillColor = System.Drawing.Color.White;
+            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button5.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
+            this.guna2Button5.Location = new System.Drawing.Point(259, 3);
+            this.guna2Button5.Name = "guna2Button5";
+            this.guna2Button5.Size = new System.Drawing.Size(42, 55);
+            this.guna2Button5.TabIndex = 11;
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
+            this.guna2Button5.MouseEnter += new System.EventHandler(this.guna2Button5_MouseEnter);
+            this.guna2Button5.MouseLeave += new System.EventHandler(this.guna2Button5_MouseLeave);
             // 
-            // textBox5
+            // guna2Button7
             // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
-            this.textBox5.ForeColor = System.Drawing.Color.Gray;
-            this.textBox5.Location = new System.Drawing.Point(148, 53);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(82, 26);
-            this.textBox5.TabIndex = 14;
-            this.textBox5.Text = "23 : 00";
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button7.Animated = true;
+            this.guna2Button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.guna2Button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Button7.BackgroundImage")));
+            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            this.guna2Button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            this.guna2Button7.ForeColor = System.Drawing.Color.Red;
+            this.guna2Button7.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button7.Image")));
+            this.guna2Button7.ImageSize = new System.Drawing.Size(35, 35);
+            this.guna2Button7.Location = new System.Drawing.Point(560, 3);
+            this.guna2Button7.Name = "guna2Button7";
+            this.guna2Button7.Size = new System.Drawing.Size(45, 45);
+            this.guna2Button7.TabIndex = 4;
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
+            this.guna2Button7.MouseEnter += new System.EventHandler(this.guna2Button7_MouseEnter);
+            this.guna2Button7.MouseLeave += new System.EventHandler(this.guna2Button7_MouseLeave);
             // 
-            // textBox14
+            // pictureBox1
             // 
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox14.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
-            this.textBox14.ForeColor = System.Drawing.Color.Gray;
-            this.textBox14.Location = new System.Drawing.Point(44, 53);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(71, 26);
-            this.textBox14.TabIndex = 15;
-            this.textBox14.Text = ": 00";
-            this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
-            // 
-            // textBox7
-            // 
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
-            this.textBox7.ForeColor = System.Drawing.Color.Gray;
-            this.textBox7.Location = new System.Drawing.Point(41, 56);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(71, 26);
-            this.textBox7.TabIndex = 18;
-            this.textBox7.Text = ": 00";
-            // 
-            // textBox8
-            // 
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
-            this.textBox8.ForeColor = System.Drawing.Color.Gray;
-            this.textBox8.Location = new System.Drawing.Point(145, 56);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(82, 26);
-            this.textBox8.TabIndex = 17;
-            this.textBox8.Text = "23 : 00";
-            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // textBox15
-            // 
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox15.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
-            this.textBox15.ForeColor = System.Drawing.Color.Gray;
-            this.textBox15.Location = new System.Drawing.Point(17, 56);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(24, 26);
-            this.textBox15.TabIndex = 16;
-            this.textBox15.Text = "0";
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-75, -22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(250, 96);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -1064,7 +1063,6 @@
             this.panel1.ResumeLayout(false);
             this.flowLayoutPanel8.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
@@ -1085,9 +1083,9 @@
             this.flowLayoutPanel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
-            this.flowLayoutPanel6.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

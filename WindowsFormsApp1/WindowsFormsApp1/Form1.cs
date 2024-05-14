@@ -46,6 +46,20 @@ namespace WindowsFormsApp1
             }
         }
 
+        public void SetPanelSize2(Button button, Panel panel)
+        {
+            if (panel.Height != 138)
+            {
+                panel.Height = 138;
+                button.Text = "▲";
+            }
+            else if (panel.Height == 138)
+            {
+                panel.Height = 60;
+                button.Text = "▼";
+            }
+        }
+
         // изменение панелей фильтров 
         private void button6_Click(object sender, EventArgs e)
         {
@@ -59,12 +73,12 @@ namespace WindowsFormsApp1
 
         private void button8_Click(object sender, EventArgs e)
         {
-            SetPanelSize(button8, panel13);
+            SetPanelSize2(button8, panel13);
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            SetPanelSize(button9, panel14);
+            SetPanelSize2(button9, panel14);
         }    
       
         private void button11_Click(object sender, EventArgs e)
@@ -225,6 +239,9 @@ namespace WindowsFormsApp1
             }
             else
             {
+                DateTime TF = Convert.ToDateTime(textBox6.Text + textBox14.Text);
+                DateTime TT = Convert.ToDateTime(textBox15.Text + textBox7.Text);
+
                 string sqlConnection = $@"Data Source={Global.HostServer};Initial Catalog=TrainDataBase;Integrated Security=True";
                 using (SqlConnection sqlconn = new SqlConnection(sqlConnection))
                 {
@@ -235,12 +252,13 @@ namespace WindowsFormsApp1
                     command.Parameters.AddWithValue("@to_", textBox11.Text);
                     command.Parameters.AddWithValue("@date_", textBox9.Text);
 
+                    command.Parameters.AddWithValue("@TimeFrom", TF.ToString("HH:mm"));
+                    command.Parameters.AddWithValue("@TimeTo", TT.ToString("HH:mm"));
+
                     var date_ = Convert.ToDateTime(textBox9.Text).ToString("yyyy-MM-dd");
 
                     command.Parameters.AddWithValue("@price", textBox1.Text);
                     command.Parameters.AddWithValue("@time", date_);
-                    command.Parameters.AddWithValue("@from", textBox6.Text);
-                    command.Parameters.AddWithValue("@to", textBox8.Text);
 
                     SqlDataReader reader = command.ExecuteReader();
 
@@ -253,8 +271,10 @@ namespace WindowsFormsApp1
 
                         traininfo.Date.Text = reader.GetDateTime(2).ToString("dd/MM/yyyy");
 
-                        traininfo.TimeFrom.Text = reader.GetString(4);
-                        traininfo.TimeWhere.Text = reader.GetString(5);
+                        traininfo.Time.Text = reader.GetString(3);
+
+                        traininfo.TimeFrom.Text = reader.GetDateTime(4).ToString("HH:mm");
+                        traininfo.TimeWhere.Text = reader.GetDateTime(5).ToString("HH:mm");
 
                         traininfo.CostPlacs.Text = reader.GetInt32(7).ToString();
                         traininfo.CountPlacs.Text = reader.GetInt32(8).ToString();
@@ -286,8 +306,6 @@ namespace WindowsFormsApp1
                 {
                     SetMessageTextBox();
                 }
-
-                
             }
         }
 
@@ -444,10 +462,10 @@ namespace WindowsFormsApp1
             button6.Text = "▲";
             panel12.Height = 138;
             button7.Text = "▲";
-            panel13.Height = 138;
-            button8.Text = "▲";
-            panel14.Height = 138;
-            button9.Text = "▲";
+            panel13.Height = 60;
+            button8.Text = "▼";
+            panel14.Height = 60;
+            button9.Text = "▼";
         }
 
         // свойства кнпоки СБРОСИТЬ
@@ -582,5 +600,6 @@ namespace WindowsFormsApp1
         {
 
         }
+
     }
 }
