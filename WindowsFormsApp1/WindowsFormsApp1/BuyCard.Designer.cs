@@ -40,6 +40,7 @@
             this.checktype = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.moneypanel = new System.Windows.Forms.FlowLayoutPanel();
             this.money = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this._sD = new System.Windows.Forms.Label();
@@ -65,13 +66,15 @@
             this.CardType2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.cvv = new Guna.UI2.WinForms.Guna2TextBox();
-            this.moneypanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this._selectMail = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2GradientPanel1.SuspendLayout();
+            this.moneypanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CardType)).BeginInit();
             this.guna2GradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CardType2)).BeginInit();
             this.guna2CustomGradientPanel1.SuspendLayout();
-            this.moneypanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // _dd
@@ -241,7 +244,7 @@
             this._email.PlaceholderForeColor = System.Drawing.Color.Gray;
             this._email.PlaceholderText = "Введите электронную почту";
             this._email.SelectedText = "";
-            this._email.Size = new System.Drawing.Size(427, 36);
+            this._email.Size = new System.Drawing.Size(249, 36);
             this._email.TabIndex = 10;
             this._email.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -302,6 +305,17 @@
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.Size = new System.Drawing.Size(312, 168);
             this.guna2GradientPanel1.TabIndex = 46;
+            // 
+            // moneypanel
+            // 
+            this.moneypanel.BackColor = System.Drawing.Color.Transparent;
+            this.moneypanel.Controls.Add(this.money);
+            this.moneypanel.Controls.Add(this.label8);
+            this.moneypanel.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
+            this.moneypanel.Location = new System.Drawing.Point(91, 25);
+            this.moneypanel.Name = "moneypanel";
+            this.moneypanel.Size = new System.Drawing.Size(159, 34);
+            this.moneypanel.TabIndex = 57;
             // 
             // money
             // 
@@ -723,22 +737,75 @@
             this.cvv.TabIndex = 56;
             this.cvv.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // moneypanel
+            // guna2CircleButton3
             // 
-            this.moneypanel.BackColor = System.Drawing.Color.Transparent;
-            this.moneypanel.Controls.Add(this.money);
-            this.moneypanel.Controls.Add(this.label8);
-            this.moneypanel.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.moneypanel.Location = new System.Drawing.Point(91, 25);
-            this.moneypanel.Name = "moneypanel";
-            this.moneypanel.Size = new System.Drawing.Size(159, 34);
-            this.moneypanel.TabIndex = 57;
+            this.guna2CircleButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton3.FillColor = System.Drawing.Color.Red;
+            this.guna2CircleButton3.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton3.Location = new System.Drawing.Point(428, 319);
+            this.guna2CircleButton3.Name = "guna2CircleButton3";
+            this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton3.Size = new System.Drawing.Size(36, 36);
+            this.guna2CircleButton3.TabIndex = 57;
+            this.guna2CircleButton3.Text = "?";
+            this.guna2CircleButton3.Click += new System.EventHandler(this.guna2CircleButton3_Click);
+            // 
+            // guna2TextBox1
+            // 
+            this.guna2TextBox1.BorderColor = System.Drawing.Color.Red;
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox1.DefaultText = "Просим ввести Вашу действительную почту для отправки электронного билета";
+            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Location = new System.Drawing.Point(264, 247);
+            this.guna2TextBox1.Multiline = true;
+            this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.PasswordChar = '\0';
+            this.guna2TextBox1.PlaceholderText = "";
+            this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.Size = new System.Drawing.Size(200, 64);
+            this.guna2TextBox1.TabIndex = 58;
+            this.guna2TextBox1.Visible = false;
+            // 
+            // _selectMail
+            // 
+            this._selectMail.BackColor = System.Drawing.Color.Transparent;
+            this._selectMail.BorderColor = System.Drawing.Color.Black;
+            this._selectMail.BorderRadius = 5;
+            this._selectMail.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this._selectMail.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this._selectMail.FocusedColor = System.Drawing.Color.Red;
+            this._selectMail.FocusedState.BorderColor = System.Drawing.Color.Red;
+            this._selectMail.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this._selectMail.ForeColor = System.Drawing.Color.Black;
+            this._selectMail.ItemHeight = 30;
+            this._selectMail.Items.AddRange(new object[] {
+            "@mail.ru",
+            "@gmail.com",
+            "@yandex.ru"});
+            this._selectMail.Location = new System.Drawing.Point(292, 319);
+            this._selectMail.Name = "_selectMail";
+            this._selectMail.Size = new System.Drawing.Size(130, 36);
+            this._selectMail.StartIndex = 0;
+            this._selectMail.TabIndex = 59;
             // 
             // BuyCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this._selectMail);
+            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.guna2CircleButton3);
             this.Controls.Add(this._mm);
             this.Controls.Add(this._first);
             this.Controls.Add(this._second);
@@ -765,12 +832,12 @@
             this.Load += new System.EventHandler(this.BuyCard_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
+            this.moneypanel.ResumeLayout(false);
+            this.moneypanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CardType)).EndInit();
             this.guna2GradientPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.CardType2)).EndInit();
             this.guna2CustomGradientPanel1.ResumeLayout(false);
-            this.moneypanel.ResumeLayout(false);
-            this.moneypanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -815,5 +882,8 @@
         private Guna.UI2.WinForms.Guna2PictureBox CardType2;
         private Guna.UI2.WinForms.Guna2TextBox cvv;
         private System.Windows.Forms.FlowLayoutPanel moneypanel;
+        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton3;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox _selectMail;
     }
 }

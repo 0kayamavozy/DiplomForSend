@@ -28,12 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.panel10 = new System.Windows.Forms.Panel();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button7 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this._End = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Station8 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Station7 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Station6 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Station5 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Station4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Station3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Station2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this._Main = new Guna.UI2.WinForms.Guna2TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -54,15 +64,6 @@
             this._DateFrom = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this._DateTo = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this._Main = new Guna.UI2.WinForms.Guna2TextBox();
-            this.Station2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.Station3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.Station4 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.Station5 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.Station6 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.Station7 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.Station8 = new Guna.UI2.WinForms.Guna2TextBox();
-            this._End = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel10.SuspendLayout();
             this.panel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -163,6 +164,214 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(806, 544);
             this.guna2Panel1.TabIndex = 100;
+            // 
+            // _End
+            // 
+            this._End.BorderColor = System.Drawing.Color.DarkGray;
+            this._End.BorderThickness = 2;
+            this._End.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this._End.DefaultText = "";
+            this._End.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this._End.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this._End.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this._End.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this._End.FocusedState.BorderColor = System.Drawing.Color.Red;
+            this._End.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this._End.ForeColor = System.Drawing.Color.Black;
+            this._End.HoverState.BorderColor = System.Drawing.Color.Red;
+            this._End.Location = new System.Drawing.Point(504, 396);
+            this._End.Name = "_End";
+            this._End.PasswordChar = '\0';
+            this._End.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this._End.PlaceholderText = "Конечная станция";
+            this._End.SelectedText = "";
+            this._End.Size = new System.Drawing.Size(260, 36);
+            this._End.TabIndex = 110;
+            // 
+            // Station8
+            // 
+            this.Station8.BorderColor = System.Drawing.Color.DarkGray;
+            this.Station8.BorderThickness = 2;
+            this.Station8.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Station8.DefaultText = "";
+            this.Station8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Station8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Station8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station8.FocusedState.BorderColor = System.Drawing.Color.Red;
+            this.Station8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Station8.ForeColor = System.Drawing.Color.Black;
+            this.Station8.HoverState.BorderColor = System.Drawing.Color.Red;
+            this.Station8.Location = new System.Drawing.Point(504, 354);
+            this.Station8.Name = "Station8";
+            this.Station8.PasswordChar = '\0';
+            this.Station8.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.Station8.PlaceholderText = "Станция №8";
+            this.Station8.SelectedText = "";
+            this.Station8.Size = new System.Drawing.Size(260, 36);
+            this.Station8.TabIndex = 109;
+            // 
+            // Station7
+            // 
+            this.Station7.BorderColor = System.Drawing.Color.DarkGray;
+            this.Station7.BorderThickness = 2;
+            this.Station7.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Station7.DefaultText = "";
+            this.Station7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Station7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Station7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station7.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station7.FocusedState.BorderColor = System.Drawing.Color.Red;
+            this.Station7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Station7.ForeColor = System.Drawing.Color.Black;
+            this.Station7.HoverState.BorderColor = System.Drawing.Color.Red;
+            this.Station7.Location = new System.Drawing.Point(504, 312);
+            this.Station7.Name = "Station7";
+            this.Station7.PasswordChar = '\0';
+            this.Station7.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.Station7.PlaceholderText = "Станция №7";
+            this.Station7.SelectedText = "";
+            this.Station7.Size = new System.Drawing.Size(260, 36);
+            this.Station7.TabIndex = 108;
+            // 
+            // Station6
+            // 
+            this.Station6.BorderColor = System.Drawing.Color.DarkGray;
+            this.Station6.BorderThickness = 2;
+            this.Station6.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Station6.DefaultText = "";
+            this.Station6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Station6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Station6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station6.FocusedState.BorderColor = System.Drawing.Color.Red;
+            this.Station6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Station6.ForeColor = System.Drawing.Color.Black;
+            this.Station6.HoverState.BorderColor = System.Drawing.Color.Red;
+            this.Station6.Location = new System.Drawing.Point(504, 270);
+            this.Station6.Name = "Station6";
+            this.Station6.PasswordChar = '\0';
+            this.Station6.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.Station6.PlaceholderText = "Станция №6";
+            this.Station6.SelectedText = "";
+            this.Station6.Size = new System.Drawing.Size(260, 36);
+            this.Station6.TabIndex = 107;
+            // 
+            // Station5
+            // 
+            this.Station5.BorderColor = System.Drawing.Color.DarkGray;
+            this.Station5.BorderThickness = 2;
+            this.Station5.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Station5.DefaultText = "";
+            this.Station5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Station5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Station5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station5.FocusedState.BorderColor = System.Drawing.Color.Red;
+            this.Station5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Station5.ForeColor = System.Drawing.Color.Black;
+            this.Station5.HoverState.BorderColor = System.Drawing.Color.Red;
+            this.Station5.Location = new System.Drawing.Point(504, 228);
+            this.Station5.Name = "Station5";
+            this.Station5.PasswordChar = '\0';
+            this.Station5.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.Station5.PlaceholderText = "Станция №5";
+            this.Station5.SelectedText = "";
+            this.Station5.Size = new System.Drawing.Size(260, 36);
+            this.Station5.TabIndex = 106;
+            // 
+            // Station4
+            // 
+            this.Station4.BorderColor = System.Drawing.Color.DarkGray;
+            this.Station4.BorderThickness = 2;
+            this.Station4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Station4.DefaultText = "";
+            this.Station4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Station4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Station4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station4.FocusedState.BorderColor = System.Drawing.Color.Red;
+            this.Station4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Station4.ForeColor = System.Drawing.Color.Black;
+            this.Station4.HoverState.BorderColor = System.Drawing.Color.Red;
+            this.Station4.Location = new System.Drawing.Point(504, 186);
+            this.Station4.Name = "Station4";
+            this.Station4.PasswordChar = '\0';
+            this.Station4.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.Station4.PlaceholderText = "Станция №4";
+            this.Station4.SelectedText = "";
+            this.Station4.Size = new System.Drawing.Size(260, 36);
+            this.Station4.TabIndex = 105;
+            this.Station4.TextChanged += new System.EventHandler(this.guna2TextBox4_TextChanged);
+            // 
+            // Station3
+            // 
+            this.Station3.BorderColor = System.Drawing.Color.DarkGray;
+            this.Station3.BorderThickness = 2;
+            this.Station3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Station3.DefaultText = "";
+            this.Station3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Station3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Station3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station3.FocusedState.BorderColor = System.Drawing.Color.Red;
+            this.Station3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Station3.ForeColor = System.Drawing.Color.Black;
+            this.Station3.HoverState.BorderColor = System.Drawing.Color.Red;
+            this.Station3.Location = new System.Drawing.Point(504, 144);
+            this.Station3.Name = "Station3";
+            this.Station3.PasswordChar = '\0';
+            this.Station3.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.Station3.PlaceholderText = "Станция №3";
+            this.Station3.SelectedText = "";
+            this.Station3.Size = new System.Drawing.Size(260, 36);
+            this.Station3.TabIndex = 104;
+            // 
+            // Station2
+            // 
+            this.Station2.BorderColor = System.Drawing.Color.DarkGray;
+            this.Station2.BorderThickness = 2;
+            this.Station2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Station2.DefaultText = "";
+            this.Station2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Station2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Station2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Station2.FocusedState.BorderColor = System.Drawing.Color.Red;
+            this.Station2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Station2.ForeColor = System.Drawing.Color.Black;
+            this.Station2.HoverState.BorderColor = System.Drawing.Color.Red;
+            this.Station2.Location = new System.Drawing.Point(504, 102);
+            this.Station2.Name = "Station2";
+            this.Station2.PasswordChar = '\0';
+            this.Station2.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.Station2.PlaceholderText = "Станция №2";
+            this.Station2.SelectedText = "";
+            this.Station2.Size = new System.Drawing.Size(260, 36);
+            this.Station2.TabIndex = 103;
+            // 
+            // _Main
+            // 
+            this._Main.BorderColor = System.Drawing.Color.DarkGray;
+            this._Main.BorderThickness = 2;
+            this._Main.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this._Main.DefaultText = "";
+            this._Main.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this._Main.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this._Main.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this._Main.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this._Main.FocusedState.BorderColor = System.Drawing.Color.Red;
+            this._Main.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this._Main.ForeColor = System.Drawing.Color.Black;
+            this._Main.HoverState.BorderColor = System.Drawing.Color.Red;
+            this._Main.Location = new System.Drawing.Point(504, 60);
+            this._Main.Name = "_Main";
+            this._Main.PasswordChar = '\0';
+            this._Main.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this._Main.PlaceholderText = "Начальная станция";
+            this._Main.SelectedText = "";
+            this._Main.Size = new System.Drawing.Size(260, 36);
+            this._Main.TabIndex = 102;
             // 
             // label4
             // 
@@ -552,214 +761,6 @@
             this.guna2Panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2Panel2_MouseDown);
             this.guna2Panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.guna2Panel2_MouseMove);
             // 
-            // _Main
-            // 
-            this._Main.BorderColor = System.Drawing.Color.DarkGray;
-            this._Main.BorderThickness = 2;
-            this._Main.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this._Main.DefaultText = "";
-            this._Main.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this._Main.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this._Main.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this._Main.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this._Main.FocusedState.BorderColor = System.Drawing.Color.Red;
-            this._Main.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this._Main.ForeColor = System.Drawing.Color.Black;
-            this._Main.HoverState.BorderColor = System.Drawing.Color.Red;
-            this._Main.Location = new System.Drawing.Point(504, 60);
-            this._Main.Name = "_Main";
-            this._Main.PasswordChar = '\0';
-            this._Main.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this._Main.PlaceholderText = "Начальная станция";
-            this._Main.SelectedText = "";
-            this._Main.Size = new System.Drawing.Size(260, 36);
-            this._Main.TabIndex = 102;
-            // 
-            // Station2
-            // 
-            this.Station2.BorderColor = System.Drawing.Color.DarkGray;
-            this.Station2.BorderThickness = 2;
-            this.Station2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Station2.DefaultText = "";
-            this.Station2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.Station2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.Station2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station2.FocusedState.BorderColor = System.Drawing.Color.Red;
-            this.Station2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Station2.ForeColor = System.Drawing.Color.Black;
-            this.Station2.HoverState.BorderColor = System.Drawing.Color.Red;
-            this.Station2.Location = new System.Drawing.Point(504, 102);
-            this.Station2.Name = "Station2";
-            this.Station2.PasswordChar = '\0';
-            this.Station2.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.Station2.PlaceholderText = "Станция №2";
-            this.Station2.SelectedText = "";
-            this.Station2.Size = new System.Drawing.Size(260, 36);
-            this.Station2.TabIndex = 103;
-            // 
-            // Station3
-            // 
-            this.Station3.BorderColor = System.Drawing.Color.DarkGray;
-            this.Station3.BorderThickness = 2;
-            this.Station3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Station3.DefaultText = "";
-            this.Station3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.Station3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.Station3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station3.FocusedState.BorderColor = System.Drawing.Color.Red;
-            this.Station3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Station3.ForeColor = System.Drawing.Color.Black;
-            this.Station3.HoverState.BorderColor = System.Drawing.Color.Red;
-            this.Station3.Location = new System.Drawing.Point(504, 144);
-            this.Station3.Name = "Station3";
-            this.Station3.PasswordChar = '\0';
-            this.Station3.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.Station3.PlaceholderText = "Станция №3";
-            this.Station3.SelectedText = "";
-            this.Station3.Size = new System.Drawing.Size(260, 36);
-            this.Station3.TabIndex = 104;
-            // 
-            // Station4
-            // 
-            this.Station4.BorderColor = System.Drawing.Color.DarkGray;
-            this.Station4.BorderThickness = 2;
-            this.Station4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Station4.DefaultText = "";
-            this.Station4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.Station4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.Station4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station4.FocusedState.BorderColor = System.Drawing.Color.Red;
-            this.Station4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Station4.ForeColor = System.Drawing.Color.Black;
-            this.Station4.HoverState.BorderColor = System.Drawing.Color.Red;
-            this.Station4.Location = new System.Drawing.Point(504, 186);
-            this.Station4.Name = "Station4";
-            this.Station4.PasswordChar = '\0';
-            this.Station4.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.Station4.PlaceholderText = "Станция №4";
-            this.Station4.SelectedText = "";
-            this.Station4.Size = new System.Drawing.Size(260, 36);
-            this.Station4.TabIndex = 105;
-            this.Station4.TextChanged += new System.EventHandler(this.guna2TextBox4_TextChanged);
-            // 
-            // Station5
-            // 
-            this.Station5.BorderColor = System.Drawing.Color.DarkGray;
-            this.Station5.BorderThickness = 2;
-            this.Station5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Station5.DefaultText = "";
-            this.Station5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.Station5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.Station5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station5.FocusedState.BorderColor = System.Drawing.Color.Red;
-            this.Station5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Station5.ForeColor = System.Drawing.Color.Black;
-            this.Station5.HoverState.BorderColor = System.Drawing.Color.Red;
-            this.Station5.Location = new System.Drawing.Point(504, 228);
-            this.Station5.Name = "Station5";
-            this.Station5.PasswordChar = '\0';
-            this.Station5.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.Station5.PlaceholderText = "Станция №5";
-            this.Station5.SelectedText = "";
-            this.Station5.Size = new System.Drawing.Size(260, 36);
-            this.Station5.TabIndex = 106;
-            // 
-            // Station6
-            // 
-            this.Station6.BorderColor = System.Drawing.Color.DarkGray;
-            this.Station6.BorderThickness = 2;
-            this.Station6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Station6.DefaultText = "";
-            this.Station6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.Station6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.Station6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station6.FocusedState.BorderColor = System.Drawing.Color.Red;
-            this.Station6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Station6.ForeColor = System.Drawing.Color.Black;
-            this.Station6.HoverState.BorderColor = System.Drawing.Color.Red;
-            this.Station6.Location = new System.Drawing.Point(504, 270);
-            this.Station6.Name = "Station6";
-            this.Station6.PasswordChar = '\0';
-            this.Station6.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.Station6.PlaceholderText = "Станция №6";
-            this.Station6.SelectedText = "";
-            this.Station6.Size = new System.Drawing.Size(260, 36);
-            this.Station6.TabIndex = 107;
-            // 
-            // Station7
-            // 
-            this.Station7.BorderColor = System.Drawing.Color.DarkGray;
-            this.Station7.BorderThickness = 2;
-            this.Station7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Station7.DefaultText = "";
-            this.Station7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.Station7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.Station7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station7.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station7.FocusedState.BorderColor = System.Drawing.Color.Red;
-            this.Station7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Station7.ForeColor = System.Drawing.Color.Black;
-            this.Station7.HoverState.BorderColor = System.Drawing.Color.Red;
-            this.Station7.Location = new System.Drawing.Point(504, 312);
-            this.Station7.Name = "Station7";
-            this.Station7.PasswordChar = '\0';
-            this.Station7.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.Station7.PlaceholderText = "Станция №7";
-            this.Station7.SelectedText = "";
-            this.Station7.Size = new System.Drawing.Size(260, 36);
-            this.Station7.TabIndex = 108;
-            // 
-            // Station8
-            // 
-            this.Station8.BorderColor = System.Drawing.Color.DarkGray;
-            this.Station8.BorderThickness = 2;
-            this.Station8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Station8.DefaultText = "";
-            this.Station8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.Station8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.Station8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Station8.FocusedState.BorderColor = System.Drawing.Color.Red;
-            this.Station8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Station8.ForeColor = System.Drawing.Color.Black;
-            this.Station8.HoverState.BorderColor = System.Drawing.Color.Red;
-            this.Station8.Location = new System.Drawing.Point(504, 354);
-            this.Station8.Name = "Station8";
-            this.Station8.PasswordChar = '\0';
-            this.Station8.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.Station8.PlaceholderText = "Станция №8";
-            this.Station8.SelectedText = "";
-            this.Station8.Size = new System.Drawing.Size(260, 36);
-            this.Station8.TabIndex = 109;
-            // 
-            // _End
-            // 
-            this._End.BorderColor = System.Drawing.Color.DarkGray;
-            this._End.BorderThickness = 2;
-            this._End.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this._End.DefaultText = "";
-            this._End.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this._End.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this._End.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this._End.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this._End.FocusedState.BorderColor = System.Drawing.Color.Red;
-            this._End.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this._End.ForeColor = System.Drawing.Color.Black;
-            this._End.HoverState.BorderColor = System.Drawing.Color.Red;
-            this._End.Location = new System.Drawing.Point(504, 396);
-            this._End.Name = "_End";
-            this._End.PasswordChar = '\0';
-            this._End.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this._End.PlaceholderText = "Конечная станция";
-            this._End.SelectedText = "";
-            this._End.Size = new System.Drawing.Size(260, 36);
-            this._End.TabIndex = 110;
-            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -769,10 +770,12 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.guna2Panel2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1440, 900);
             this.MinimumSize = new System.Drawing.Size(1440, 900);
             this.Name = "Form4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "АИС \"Бронирование билетов\"";
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             this.panel1.ResumeLayout(false);

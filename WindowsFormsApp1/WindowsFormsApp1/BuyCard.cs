@@ -40,7 +40,8 @@ namespace WindowsFormsApp1
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Global.Mail = _email.Text;
+            Global.Mail = _email.Text + _selectMail.Text;
+            Global.MailChoose = _selectMail.Text;
 
             if (
                 _first.Text == String.Empty && 
@@ -111,10 +112,6 @@ namespace WindowsFormsApp1
                         {"<NamePass>", $"{_cardname.Text.ToUpper()}"}
                     };             
 
-                    if (ReplaceTags(inputfile, outputfile, currentroute) == true)
-                    {
-                        MessageBox.Show("Билет успешно сформирован", "Сообщение", MessageBoxButtons.OK);
-                    }
                 }
             }
         }
@@ -282,6 +279,16 @@ namespace WindowsFormsApp1
         private void guna2CircleButton2_Click(object sender, EventArgs e)
         {
             cvv.UseSystemPasswordChar = !cvv.UseSystemPasswordChar;
+        }
+
+        private void guna2CircleButton3_Click(object sender, EventArgs e)
+        {
+            if (guna2TextBox1.Visible == false)
+            {
+                guna2TextBox1.Visible = true;
+            }
+            else
+                guna2TextBox1.Visible = false;
         }
     }
 }
